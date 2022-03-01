@@ -33,13 +33,12 @@ a:hover {
 div {
     display: inline-block;
     align-items: center;
-
 }
 
 section {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -47,9 +46,9 @@ button {
     background: none;
     color: #c6ac8f;
     border-radius: 10px;
+    border: 2px solid;
     align-items: center;
     margin: 0 1em 0 1em;
-    border: 2px solid;
     padding: 1em 2em;
     text-transform: uppercase;
     font-weight: 400px;
