@@ -27,7 +27,7 @@ span a {
 
 a:hover {
     color: #c5a47e;
-    text-decoration: 2px solid #c5a47e;
+    text-decoration: underline 1px solid #c5a47e;
 }
 
 div {
@@ -35,20 +35,23 @@ div {
     align-items: center;
 }
 
-section {
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 button {
+    display: flex;
+    text-decoration: none;
     background: none;
     color: #c6ac8f;
     border-radius: 10px;
     border: 2px solid;
     align-items: center;
-    margin: 0 1em 0 1em;
+    margin: 0 .5em 0 .5em;
+    flex: 1 2 20px;
     padding: 1em 2em;
     text-transform: uppercase;
     font-weight: 400px;
@@ -60,5 +63,5 @@ button:hover {
     box-shadow: 0em .0em 0.9em -.2em #ffffff;
     transform: translateY(-0.25em);
     cursor: pointer;
-    text-decoration: underline black solid;
+    text-decoration: underline rgb(255, 255, 255) solid;
   }
