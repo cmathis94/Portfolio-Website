@@ -68,10 +68,18 @@ body {
     align-items: center;
     margin: 0em;
     padding: 1em;
-    background-color: grey;
+    background-color: #22333b;
     width: 80%;
-    height: 14em;
+    height: 500px;
     max-width: 960px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px 10px #22333b;
+}
+
+.panel-two {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
 }
 
 h1,h2,h3 {
