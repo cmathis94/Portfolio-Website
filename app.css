@@ -50,5 +50,37 @@ table {
 html {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    color: #eae0d5;
+    color: #000000;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
+    max-width: 850px;
+}
+
+h1,h2,h3 {
+    margin: 10px 0 10px 10px;
+}
+
+h1 {
+   font-size: 40px;
+   align-items: flex-start;
+}
+
+p {
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 0 10px;
+    /* max-width: 550px; */
+    min-width: 400px;
 }
