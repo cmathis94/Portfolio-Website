@@ -5,3 +5,9 @@
 /* body {
     background-color: gray;
 } */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
