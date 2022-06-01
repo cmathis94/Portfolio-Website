@@ -11,3 +11,10 @@
     justify-content: center;
     align-items: center;
 }
+
+hr {
+    height: 1px;
+    border: none;
+    margin: none;
+    background-color: rgb(204, 204, 204);
+}
