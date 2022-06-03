@@ -6,12 +6,6 @@
     background-color: gray;
 } */
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 hr {
     height: 1px;
     border: none;

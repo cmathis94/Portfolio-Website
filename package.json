@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bulma": "^0.9.4"
+  },
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmathis94/Portfolio-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmathis94/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/cmathis94/Portfolio-Website#readme",
+  "description": ""
+}
