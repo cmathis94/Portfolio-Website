@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "bulma": "^0.9.4"
-  },
   "name": "portfolio-website",
   "version": "1.0.0",
   "main": "app.js",
