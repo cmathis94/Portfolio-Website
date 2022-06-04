@@ -27,16 +27,25 @@ hr {
     animation: blink .75s step-end infinite;
 }
 
-body {
+nav {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+section.bg {
     background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
     background-position: center center;
-    background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     background-color: #999;
-    height: 770px;
+    max-height: 900px;
 }
 
-.box {
-    opacity: 50%;
+footer.footer {
+    padding-bottom: 3em;
 }
+
+/* .navbar.is-transparent {
+    background-color: transparent;
+    background-image: none;
+} */
