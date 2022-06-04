@@ -12,3 +12,31 @@ hr {
     margin: none;
     background-color: rgb(204, 204, 204);
 }
+
+#text {
+    display: inline-block;
+    /* vertical-align: middle; */
+}
+
+#cursor {
+    display: inline-block;
+    /* vertical-align: middle; */
+    width: .5em;
+    height: .83em;
+    background-color: #363636;
+    animation: blink .75s step-end infinite;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #999;
+    height: 770px;
+}
+
+.box {
+    opacity: 50%;
+}
