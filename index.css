@@ -15,16 +15,14 @@ hr {
 
 #text {
     display: inline-block;
-    /* vertical-align: middle; */
 }
 
 #cursor {
     display: inline-block;
-    /* vertical-align: middle; */
-    width: .5em;
-    height: .83em;
-    background-color: #363636;
-    animation: blink .75s step-end infinite;
+    width: 15px;
+    height: 25px;
+    background-color: #4a4a4a;
+    animation: blink .75s step-start 0s infinite;
 }
 
 nav {
