@@ -4,58 +4,406 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="app.css"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
-    <title>CMathis94 Portfolio - Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>CMathis - Portfolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="mt-3">
+
+    
+    <section class="section bg" id="top">
+        <div class="container">
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#top">
+                        <h1 class="title has-text-weight-light">CMATHIS</h1>
+                    </a>
+
+                    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu"
+                        aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navMenu" class="navbar-menu" id="nav-links">
+                    <div class="navbar-start">
+                        <a name="home" class="navbar-item" href="#top">
+                            Home
+                        </a>
+                        <a class="navbar-item" href="#projects">
+                            Projects
+                        </a>
+
+                        <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
+                            <a class="navbar-link">
+                                More
+                            </a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item" href="#about">
+                                    About
+                                </a>
+                                <a class="navbar-item" href="#contact">
+                                    Contact
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="is-flex is-justify-content-center">
+                                <a class="button is-rounded" type="button" href="https://github.com/cmathis94"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <span class="icon is-medium">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                </a>
+
+                                <a class="button is-rounded" type="button"
+                                    href="https://www.linkedin.com/in/collin-mathis-337996162/" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <span class="icon is-medium">
+                                        <i class="fab fa-linkedin"></i>
+                                    </span>
+                                </a>
+
+                                <a class="button is-rounded" type="button" href="https://twitter.com/CKM07v2"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <span class="icon is-medium">
+                                        <i class="fab fa-twitter"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="my-6">
+                <section id="home" class="section is-large">
+                    <div class="my-6 columns is-flex is-justify-content-center">
+                        <div class="colunm">
+                            <h1 class="has-text-centered title is-1">Collin Mathis</h1>
+                            <h2 class="has-text-centered subtitle is-3">
+                                <div class="m-1">
+                                    <div id="text"></div>
+                                    <div id="cursor"></div>
+                                </div>
+                            </h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
             <div>
-                <button type="button" class="btn btn-light"><a href="index.html">Home</a></button>
-                <button type="button" class="btn btn-light"><a href="about.html">About</a></button>
-                <button type="button" class="btn btn-light"><a href="contact.html">Contact</a></button>
-                <button type="button" class="btn btn-light"><a href="projects.html">Projects</a></button>
-                <button type="button" class="btn btn-light"><a href="resume.html">Resume</a></button>
+                <section class="section pb-0" id="projects">
+                    <div class="columns is-flex">
+                        <div class="column">
+                            <h2 class="has-text-centered subtitle is-3">Projects</h2>
+                        </div>
+                    </div>
+                    <hr>
+                </section>
+                <section class="section pt-2">
+                    <div class="columns is-flex-desktop">
+                        <div class="column is-one-third">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="imgs/portfolioCapture.JPG" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">Portfolio Website</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        My first website, designed by me using Bulma. Very minimal javascript, but it is
+                                        a current work in progress. <a href="https://cmathis.link">#link</a> <a
+                                            href="https://github.com/cmathis94/Portfolio-Website">#github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-one-third">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">Shelby & Collin</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        I am building a surprise for my wife using our elopement photos. Website will be
+                                        up soon... <a href="https://shelbyandcollin.com">#link</a> <a
+                                            href="https://github.com/cmathis94/collinandshelby/blob/main/README.md">#github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-one-third">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="imgs/inventoryCapture.JPG"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">Inventory Tracker</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        Created an inventory tracking app to input and keep track of rolling items. Not totally finished, but it's coming... <a href="https://github.com/cmathis94/inventoryCreator">#github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns is-flex-desktop">
+                        <div class="column is-one-third">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">Project</p>
+                                            <p class="subtitle is-6">Enter title here...</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                        <a href="#">#css</a> <a href="#">#responsive</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-one-third">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">Project</p>
+                                            <p class="subtitle is-6">Enter title here...</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                        <a href="#">#css</a> <a href="#">#responsive</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-one-third">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                            alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">Project</p>
+                                            <p class="subtitle is-6">Enter title here...</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                        <a href="#">#css</a> <a href="#">#responsive</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </section>
+            </div>
+            <section class="section is-medium">
+                <div class="columns is-flex is-align-content-center">
+                    <div class="column">
+                        <h2 class="has-text-centered subtitle is-3">Skills</h2>
+                    </div>
+                </div>
+                <hr>
+                <div class="columns">
+                    <div class="column is-one-third is-flex is-justify-content-center">
+                        <div class="card-image">
+                            <figure class="image is-128x128">
+                                <img class="" src="/imgs/js.png">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="column is-one-third is-flex is-justify-content-center">
+                        <div class="card-image">
+                            <figure class="image is-128x128">
+                                <img class="" src="imgs/nodejs.png">
+                            </figure>
+
+                        </div>
+                    </div>
+                    <div class="column is-one-third is-flex is-justify-content-center">
+                        <div class="card-image">
+                            <figure class="image is-128x128">
+                                <img class="" src="imgs/mongodb.png">
+                            </figure>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section is-medium">
+                <div class="columns is-flex">
+                    <div class="column">
+                        <h2 class="has-text-centered subtitle is-3">Resume</h2>
+                    </div>
+                </div>
+                <hr>
+                <div class="columns is-flex is-centered">
+                    <div class="column">
+                        <div class="is-flex is-justify-content-center">
+                            <a class="m-1 button is-medium-desktop is-rounded" type="button" href="/Resume/resume.pdf"
+                                target="_blank" rel="noopener noreferrer">Link</a>
+                            <a class="m-1 button is-medium-desktop is-rounded" type="button" download="resume.pdf"
+                                href="/Resume/resume.pdf">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt-6 section is-medium" id="about">
+                <div class="column is-flex">
+                    <div class="column">
+                        <h2 class="has-text-centered subtitle is-3">About Me</h2>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="columns is-flex">
+                        <div class="column is-centered">
+                            <p class="p-1 is-size-5-desktop">Hello all! Thank you for viewing my
+                                Portfolio
+                                Website.
+                                The layout of the
+                                webiste was created using <a href="https://bulma.io">Bulma.io</a>. I have been
+                                practicing web
+                                development
+                                with
+                                several tools including: Udemy, CodeWars, the Odin Project, and CodeCademy.</p>
+                            <p class="p-1 is-size-5-desktop">I started my career as working in
+                                Information
+                                Technology
+                                moving from a Helpdesk role, to a Systems Administrator, and finally to an IT
+                                Consultant. I have
+                                over
+                                six years experience in Information Technology creating/deploying servers and
+                                network architecture while supporting my clients. I have been making the transistion
+                                over to
+                                Web Development over
+                                the
+                                past year in hopes to land a job as a Web Dev by the end of the year.</p>
+                            <p class="p-1 is-size-5-desktop">Thank you for taking your time to view
+                                my
+                                Portfolio!
+                            </p>
+                        </div>
+                    </div>
+            </section>
+            <!--             commenting this out until functionality is added    -->
+            <!-- <section class="section is-large pt-6 pb-6" id="contact">
+                <div class="px-6">
+                    <div class="column is-flex">
+                        <div class="column">
+                            <h2 class="has-text-centered subtitle is-3">Contact Me</h2>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="columns is-centered is-narrow">
+                        <div class="column is-6-desktop">
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="Enter First & Last Name...">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control has-icons-left">
+                                    <input class="input" type="email" placeholder="Enter Email...">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Message</label>
+                                <div class="control">
+                                    <textarea class="textarea" placeholder="Enter message..."></textarea>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <input type="submit" class="button" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section> -->
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/884b55a407.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="typing.js"></script>
+
+    <footer class="footer mt-auto">
+        <div class="columns">
+            <div class="column is-one-quarter has-text-centered">
+                <p>CMathis</p>
+            </div>
+            <div class="column">
+                <p>Created using <a href="https://bulma.io">Bulma</a>. Please contact collin.mathis94@gmail.com for
+                    descrepancy or inquiries.</p>
             </div>
         </div>
-        <div>
-            <h1 class="display-1 text-center">CMathis94</h1>
-
-            <p>
-                Hello everyone! My name is Collin Mathis and welcome to my Portfolio Website!
-            </p>
-            <p>
-                I have built this website from scratch using an AWS server to host the website and provisioned my own
-                domain.
-                All HTML and CSS documents were created and styled by myself.
-            </p>
-            <p>
-                I have used a utilized <span><a href="https://www.udemy.com/">Udemy</a></span> as my main learning
-                resource.
-                I
-                also
-                started as <span><a href="https://www.codewars.com/">CodeWars</a></span> account: <span><a
-                        href="https://www.codewars.com/users/cmathis94">CMathis94</a></span>. My first course I started
-                at
-                Udemy
-                was
-                <span><a href="https://www.udemy.com/course/the-web-developer-bootcamp/"> The Web Developer Bootcamp
-                        2022</a></span>. That
-                is
-                where I first started to shape my developer skills.
-            </p>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    </footer>
 </body>
 
 </html>
