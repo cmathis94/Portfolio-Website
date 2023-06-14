@@ -61,8 +61,8 @@ div.col-2 img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 45px;
+/*   width: 150px; */
+  height: 45px; 
   border-radius: 10px;
   background-color: #ffebd5;
   transition: 0.3s;
@@ -85,5 +85,6 @@ div.col-2 img {
 
 .bg-image {
   background-image: url(https://images.unsplash.com/photo-1604737771065-7ce2dc4ba3e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1954&q=80);
+  background-repeat: no-repeat;
   min-height: 837px;
 }
