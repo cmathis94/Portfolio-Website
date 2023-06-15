@@ -9,7 +9,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: end;
-  height: 39px;
+  height: 50px;
 }
 
 .cursor {
@@ -47,9 +47,6 @@ nav {
 
 body {
   background-color: #fff9f2 !important;
-}
-p.card-text a {
-  text-decoration: none;
 }
 
 div.col-2 img {
