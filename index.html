@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,246 +18,198 @@
     />
     <title>CMathis - Portfolio</title>
   </head>
+=======
+>>>>>>> f6e8fcd2e3d30c9bf27c164e4e9a0beabe8591f6
 
-  <body class="d-flex flex-column vh-100">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand mx-2" href="#">
-          <h3 class="m-0">CMATHIS</h3>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href=""
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#about">About</a></li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/public/PDF/resume.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Resume</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CMathis - Portfolio</title>
+  <link rel="stylesheet" href="/public/assets/CSS/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="/public/imgs/favicon.ico" type="image/x-icon" />
+</head>
+
+<body class="d-flex flex-column vh-100">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FX4HCFF9W2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FX4HCFF9W2');
+  </script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-2" href="#">
+        <h3 class="m-0">CMATHIS</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li>
+                <a class="dropdown-item" href="/public/PDF/resume.pdf" target="_blank"
+                  rel="noopener noreferrer">Resume</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="text-center bg-image">
+    <div class="container h-100">
+      <div style="min-height: 100%" class="row align-items-center justify-content-center">
+        <div class="col-4 p-0">
+          <div class="row mask rounded p-3" style="background-color: rgba(255, 255, 255, 0.3)">
+            <div class="col p-0">
+              <h1 class="display-1 mb-0">Collin Mathis</h1>
+            </div>
+            <div class="w-100"></div>
+            <div class="col p-0">
+              <h2 class="display-6 mb-0">
+                <div class="textContainer">
+                  <span class="text" id="text"></span>
+                  <span class="cursor" id="cursor"></span>
+                </div>
+              </h2>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <div class="text-center bg-image">
-      <div class="container h-100">
-        <div
-          style="min-height: 100%"
-          class="row align-items-center justify-content-center"
-        >
-          <div class="col-4 p-0">
-            <div
-              class="row mask rounded p-3"
-              style="background-color: rgba(255, 255, 255, 0.3)"
-            >
-              <div class="col p-0">
-                <h1 class="display-1 mb-0">Collin Mathis</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row align-items-center justify-content-center mb-5">
+      <div class="col">
+        <h2 class="h2 text-center mt-5" id="projects">PROJECTS</h2>
+        <hr class="mb-5" />
+        <div class="row justify-content-center">
+          <div class="col-4 mb-4">
+            <div class="card shadow h-100">
+              <img src="/public/imgs/cmathisPortfolio.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="h3">Portfolio Website</h3>
+                <p class="card-text mb-5">
+                  This is my first project that I created for myself. It has
+                  minimal Javascript, using Bootstrap as styling (with some
+                  custom CSS), but basic HTML coding. I am using AWS Amplify
+                  for server hosting and AWS Route 53 for DNS.
+                </p>
               </div>
-              <div class="w-100"></div>
-              <div class="col p-0">
-                <h2 class="display-6 mb-0">
-                  <div class="textContainer">
-                    <span class="text" id="text"></span>
-                    <span class="cursor" id="cursor"></span>
+              <div class="card-footer">
+                <a href="https://collinmathis.com">#link</a>
+                <a href="https://github.com/cmathis94/Portfolio-Website">#github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 mb-4">
+            <div class="card shadow h-100">
+              <img src="/public/imgs/msqg.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="h3">Main Street Quilt Guild</h3>
+                <p class="card-text">
+                  This is my first commissioned website. It uses express,
+                  node, vanilla javascript, bootstrap with some custom css. I
+                  am using heroku for server hosting and namecheap for DNS. It
+                  is not fully finished, but it is live. I will utilizing a
+                  CI/CD practice to improve functionality over time.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.mainstreetquiltguild.org">#link</a>
+                <a href="https://github.com/cmathis94/Quilting-Guild">#github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 mb-4">
+            <div class="card shadow h-100">
+              <img src="/public/imgs/beljapurcattery.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="h3">Beljapur Cattery</h3>
+                <p class="card-text">
+                  This is a website utilizing a CMS, Wix, to host this
+                  website. I only assisted with the design and the setup for
+                  Google Analytics, Tag Manager, and Ads.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.beljapurpersian.com/">#link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card shadow h-100">
+              <img src="/public/imgs/inventoryCapture.JPG" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="h3">Inventory Tracker</h3>
+                <p class="card-text">
+                  Built a web-app to keep track of rolling inventory items.
+                  Using basic CRUD elements. Started using Node, MongoDB,
+                  Express. Starting to build a basic understanding of coding
+                  concepts. Not live.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/cmathis94/inventoryCreator">#github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row align-items-center justify-content-center mb-5">
+      <div class="col">
+        <h2 class="h2 text-center mt-5">SKILLS</h2>
+        <hr class="mb-5" />
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="card shadow">
+              <div class="card-body">
+                <div class="row justify-content-evenly mb-3">
+                  <div class="col-3">
+                    <img src="public/imgs/js.png" alt="" class="img-fluid" style="border-radius: 30px" />
                   </div>
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row align-items-center justify-content-center mb-5">
-        <div class="col">
-          <h2 class="h2 text-center mt-5" id="projects">PROJECTS</h2>
-          <hr class="mb-5" />
-          <div class="row justify-content-center">
-            <div class="col-4 mb-4">
-              <div class="card shadow h-100">
-                <img
-                  src="/public/imgs/cmathisPortfolio.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h3 class="h3">Portfolio Website</h3>
-                  <p class="card-text mb-5">
-                    This is my first project that I created for myself. It has
-                    minimal Javascript, using Bootstrap as styling (with some
-                    custom CSS), but basic HTML coding. I am using AWS Amplify
-                    for server hosting and AWS Route 53 for DNS.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a href="https://collinmathis.com">#link</a>
-                  <a href="https://github.com/cmathis94/Portfolio-Website"
-                    >#github</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-4 mb-4">
-              <div class="card shadow h-100">
-                <img
-                  src="/public/imgs/msqg.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h3 class="h3">Main Street Quilt Guild</h3>
-                  <p class="card-text">
-                    This is my first commissioned website. It uses express,
-                    node, vanilla javascript, bootstrap with some custom css. I
-                    am using heroku for server hosting and namecheap for DNS. It
-                    is not fully finished, but it is live. I will utilizing a
-                    CI/CD practice to improve functionality over time.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a href="https://www.mainstreetquiltguild.org">#link</a>
-                  <a href="https://github.com/cmathis94/Quilting-Guild"
-                    >#github</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-4 mb-4">
-              <div class="card shadow h-100">
-                <img
-                  src="/public/imgs/beljapurcattery.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h3 class="h3">Beljapur Cattery</h3>
-                  <p class="card-text">
-                    This is a website utilizing a CMS, Wix, to host this
-                    website. I only assisted with the design and the setup for
-                    Google Analytics, Tag Manager, and Ads.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a href="https://www.beljapurpersian.com/">#link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card shadow h-100">
-                <img
-                  src="/public/imgs/inventoryCapture.JPG"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h3 class="h3">Inventory Tracker</h3>
-                  <p class="card-text">
-                    Built a web-app to keep track of rolling inventory items.
-                    Using basic CRUD elements. Started using Node, MongoDB,
-                    Express. Starting to build a basic understanding of coding
-                    concepts. Not live.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a href="https://github.com/cmathis94/inventoryCreator"
-                    >#github</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row align-items-center justify-content-center mb-5">
-        <div class="col">
-          <h2 class="h2 text-center mt-5">SKILLS</h2>
-          <hr class="mb-5" />
-          <div class="row justify-content-center">
-            <div class="col-8">
-              <div class="card shadow">
-                <div class="card-body">
-                  <div class="row justify-content-evenly mb-3">
-                    <div class="col-3">
-                      <img
-                        src="public/imgs/js.png"
-                        alt=""
-                        class="img-fluid"
-                        style="border-radius: 30px"
-                      />
-                    </div>
-                    <div class="col-3">
-                      <img
-                        src="public/imgs/mongodb.png"
-                        alt=""
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="col-3">
-                      <img
-                        src="public/imgs/nodejs.png"
-                        style="
+                  <div class="col-3">
+                    <img src="public/imgs/mongodb.png" alt="" class="img-fluid" />
+                  </div>
+                  <div class="col-3">
+                    <img src="public/imgs/nodejs.png" style="
                           width: 187.5px;
                           max-width: 187.5px;
                           max-height: 187.5px;
-                        "
-                        alt=""
-                        class="img-fluid"
-                      />
-                    </div>
+                        " alt="" class="img-fluid" />
                   </div>
-                  <div class="row justify-content-evenly mt-3">
-                    <div class="col-3">
-                      <img
-                        src="public/imgs/Photoshop.png"
-                        alt=""
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div class="col-3">
-                      <img src="public/imgs/php.png" alt="" class="img-fluid" />
-                    </div>
-                    <div class="col-3">
-                      <img
-                        src="public/imgs/wordpress.png"
-                        alt=""
-                        class="img-fluid"
-                      />
-                    </div>
+                </div>
+                <div class="row justify-content-evenly mt-3">
+                  <div class="col-3">
+                    <img src="public/imgs/Photoshop.png" alt="" class="img-fluid" />
+                  </div>
+                  <div class="col-3">
+                    <img src="public/imgs/php.png" alt="" class="img-fluid" />
+                  </div>
+                  <div class="col-3">
+                    <img src="public/imgs/wordpress.png" alt="" class="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -265,116 +218,97 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row align-items-center justify-content-center mb-5">
-        <div class="col-12">
-          <h2 class="h2 text-center mt-5" id="about">ABOUT ME</h2>
-          <hr class="mb-5" />
-        </div>
-        <div class="col-12">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-8">
-              <div class="card shadow">
-                <div class="card-body p-5">
-                  <p class="fs-5">
-                    Hello everyone! Thank you for viewing my Portfolio. The
-                    layout of the website was created using Bootstrap 5 and some
-                    custom CSS. I have been practicing web development for more
-                    than a year now and landed my first job in development in
-                    January of 2023. I used a range of tools such as Udemy,
-                    CodeWars, the Odin Project, CodeCademy, freeCodeCamp and on
-                    the job experience.
-                  </p>
-                  <p class="fs-5">
-                    I started my career working in Information Technology,
-                    moving from a Helpdesk role, then to a Systems
-                    Administrator, and finally an IT Consultant. I accumulated
-                    over 7 years of IT Support skills creating/deploying servers
-                    and network architecture all while supporting my clients.
-                  </p>
-                  <p class="fs-5">
-                    Unfortunately, IT Support was not fulfilling me creatively,
-                    so I wanted to transition into something with a more
-                    creative outlet. I had a strong aspiration to pursue
-                    computer coding, yet I held the misconception that one
-                    needed exceptional intelligence to grasp the breadth of
-                    knowledge required to master the art of coding. I was
-                    deterred from pursuing this early on in my life because of
-                    the requirements I had built up in my own head. Then, I
-                    started talking to my neighbor about it, and they believed I
-                    was well-equipped to learn how to code. They told me,
-                    "Anyone can do it!" And now, here I am—a full-fledged web
-                    developer! I may be a junior, but I am a web developer
-                    nonetheless!
-                  </p>
-                  <p class="fs-5 mb-0">
-                    Thank you for visiting my site. If you would like to inquire
-                    about me developing your site, please feel free to reach out
-                    to me any time!
-                  </p>
-                </div>
+  </div>
+  <div class="container">
+    <div class="row align-items-center justify-content-center mb-5">
+      <div class="col-12">
+        <h2 class="h2 text-center mt-5" id="about">ABOUT ME</h2>
+        <hr class="mb-5" />
+      </div>
+      <div class="col-12">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-8">
+            <div class="card shadow">
+              <div class="card-body p-5">
+                <p class="fs-5">
+                  Hello everyone! Thank you for viewing my Portfolio. The
+                  layout of the website was created using Bootstrap 5 and some
+                  custom CSS. I have been practicing web development for more
+                  than a year now and landed my first job in development in
+                  January of 2023. I used a range of tools such as Udemy,
+                  CodeWars, the Odin Project, CodeCademy, freeCodeCamp and on
+                  the job experience.
+                </p>
+                <p class="fs-5">
+                  I started my career working in Information Technology,
+                  moving from a Helpdesk role, then to a Systems
+                  Administrator, and finally an IT Consultant. I accumulated
+                  over 7 years of IT Support skills creating/deploying servers
+                  and network architecture all while supporting my clients.
+                </p>
+                <p class="fs-5">
+                  Unfortunately, IT Support was not fulfilling me creatively,
+                  so I wanted to transition into something with a more
+                  creative outlet. I had a strong aspiration to pursue
+                  computer coding, yet I held the misconception that one
+                  needed exceptional intelligence to grasp the breadth of
+                  knowledge required to master the art of coding. I was
+                  deterred from pursuing this early on in my life because of
+                  the requirements I had built up in my own head. Then, I
+                  started talking to my neighbor about it, and they believed I
+                  was well-equipped to learn how to code. They told me,
+                  "Anyone can do it!" And now, here I am—a full-fledged web
+                  developer! I may be a junior, but I am a web developer
+                  nonetheless!
+                </p>
+                <p class="fs-5 mb-0">
+                  Thank you for visiting my site. If you would like to inquire
+                  about me developing your site, please feel free to reach out
+                  to me any time!
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="footer mt-auto" style="background-color: #fff9f2">
-      <div class="p-3" style="background-color: rgba(0, 0, 0, 0.05)">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-4">
-            <div>
-              <strong
-                ><a
-                  style="text-decoration: none; color: black"
-                  href="https://collinmathis.com"
-                  >Collin Mathis</a
-                ></strong
-              >
-            </div>
-            <div>
-              The source code is licensed
-              <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-              The website content is licensed
-              <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                >CC BY NC SA 4.0</a
-              >.
-            </div>
+  <footer class="footer mt-auto" style="background-color: #fff9f2">
+    <div class="p-3" style="background-color: rgba(0, 0, 0, 0.05)">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-4">
+          <div>
+            <strong><a style="text-decoration: none; color: black" href="https://collinmathis.com">Collin
+                Mathis</a></strong>
           </div>
-          <div class="col-2 text-center">
-            <a
-              href="https://github.com/cmathis94"
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              role="button"
-            >
-              <i class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/collin-mathis-337996162/"
-              class="btn btn-link btn-floating btn-lg text-dark m1"
-              role="button"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
+          <div>
+            The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+            The website content is licensed
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
           </div>
         </div>
+        <div class="col-2 text-center">
+          <a href="https://github.com/cmathis94" class="btn btn-link btn-floating btn-lg text-dark m-1" role="button">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/collin-mathis-337996162/"
+            class="btn btn-link btn-floating btn-lg text-dark m1" role="button">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/884b55a407.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/public/assets/JS/typing.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/884b55a407.js" crossorigin="anonymous"></script>
+  <script src="/public/assets/JS/typing.js"></script>
+</body>
+
 </html>
