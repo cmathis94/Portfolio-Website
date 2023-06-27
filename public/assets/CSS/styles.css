@@ -59,3 +59,7 @@ div.col-2 img {
   background-repeat: no-repeat;
   min-height: 837px;
 }
+
+.max-height {
+  max-height: 100%;
+}
