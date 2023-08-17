@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/public/assets'));
 app.use(express.urlencoded({ extended: true }));
-// app.use(secure);
+app.use(secure);
 
 app.get('/', (req, res) => {
   res.render('home');
@@ -25,10 +25,10 @@ app.get('/services', (req, res) => {
   res.render('services');
 });
 
-// app.use((err, req, res, next) => {
-//   const { status, message = 'Something Went Wrong' } = err;
-//   res.status(status).send(message);
-// });
+app.use((err, req, res, next) => {
+  const { status, message = 'Something Went Wrong' } = err;
+  res.status(status).send(message);
+});
 
 app.listen(port, () => {
   console.log(`On port ${port}`);
