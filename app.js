@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const ejsMate = require('ejs-mate');
-// const secure = require('ssl-express-www');
+const secure = require('ssl-express-www');
 
 // const AppError = require('./util/appError');
 // const catchAsync = require('./util/catchAsync');
@@ -25,10 +25,10 @@ app.get('/services', (req, res) => {
   res.render('services');
 });
 
-app.use((err, req, res, next) => {
-  const { status, message = 'Something Went Wrong' } = err;
-  res.status(status).send(message);
-});
+// app.use((err, req, res, next) => {
+//   const { status, message = 'Something Went Wrong' } = err;
+//   res.status(status).send(message);
+// });
 
 app.listen(port, () => {
   console.log(`On port ${port}`);
