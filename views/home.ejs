@@ -1,4 +1,27 @@
 <%= layout('layouts/boilerplate') %>
+
+<div class="text-center bg-image">
+  <div class="container h-100">
+    <div
+      style="min-height: 100%"
+      class="row align-items-center justify-content-center"
+    >
+      <div class="col-lg-4 col-9 p-0">
+        <div
+          class="row mask rounded p-3"
+          style="background-color: rgba(255, 255, 255, 0.3)"
+        >
+          <div class="col p-0">
+            <h1 class="display-1 mb-0">Collin Mathis</h1>
+          </div>
+          <div class="w-100"></div>
+          <div class="col p-0">
+            <h2 class="display-6 mb-0">
+              <div class="textContainer">
+                <span class="text" id="text"></span>
+                <span class="cursor" id="cursor"></span>
+              </div>
+            </h2>
   <div class="text-center bg-image">
     <div class="container-fluid h-100">
       <div style="min-height: 100%" class="row align-items-center justify-content-center">
@@ -21,6 +44,142 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
+  <div class="row align-items-center justify-content-center mb-5">
+    <div class="col">
+      <h2 class="h2 text-center mt-5" id="projects">PROJECTS</h2>
+      <hr class="mb-lg-5" />
+      <div class="row justify-content-center">
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow h-100">
+            <img
+              src="/imgs/cmathisPortfolio.png"
+              class="card-img-top"
+              style="min-height: 202px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="h3">Portfolio Website</h3>
+              <p class="card-text mb-5">
+                This is my first project that I created for myself. It has
+                minimal Javascript, using Bootstrap as styling (with some custom
+                CSS), but basic HTML coding. I am using AWS Amplify for server
+                hosting and AWS Route 53 for DNS.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://collinmathis.com">#link</a>
+              <a href="https://github.com/cmathis94/Portfolio-Website"
+                >#github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow h-100">
+            <img src="/imgs/msqg.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="h3">Main Street Quilt Guild</h3>
+              <p class="card-text">
+                This is my first commissioned website. It uses express, node,
+                vanilla javascript, bootstrap with some custom css. I am using
+                heroku for server hosting and namecheap for DNS. It is not fully
+                finished, but it is live. I will utilizing a CI/CD practice to
+                improve functionality over time.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.mainstreetquiltguild.org">#link</a>
+              <a href="https://github.com/cmathis94/Quilting-Guild">#github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow h-100">
+            <img
+              src="/imgs/beljapurcattery.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="h3">Beljapur Cattery</h3>
+              <p class="card-text">
+                This is a website utilizing a CMS, Wix, to host this website. I
+                only assisted with the setup for Google Analytics, Tag Manager,
+                and Ads.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://www.beljapurpersian.com/">#link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow h-100">
+            <img
+              src="/imgs/inventoryCapture.JPG"
+              class="card-img-top"
+              style="height: 202px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="h3">Inventory Tracker</h3>
+              <p class="card-text">
+                Built a web-app to keep track of rolling inventory items. Using
+                basic CRUD elements. Started using Node, MongoDB, Express.
+                Starting to build a basic understanding of coding concepts. Not
+                live.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/cmathis94/inventoryCreator"
+                >#github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow h-100">
+            <img
+              src="/imgs/eclipse_calc.png"
+              class="card-img-top"
+              style="height: 202px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="h3">Eclipse Timer</h3>
+              <p class="card-text">
+                I created a countdown timer for the City of Georgetown regarding
+                the Eclipse coming up on April 8, 2024. I'm using JavaScript to
+                make constant updates every second and Bootstrap to
+                style/flexbox.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://visit.georgetown.org/eclipse/">#link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-lg-4">
+          <div class="card shadow h-100">
+            <img
+              src="/imgs/payscale_calc.png"
+              class="card-img-top"
+              style="height: 202px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="h3">Salary Calculator</h3>
+              <p class="card-text">
+                I created a salary calculator for the City of Georgetown. This
+                calculator will display salaries and incentives to recruit Fire
+                Fighters for the City of Georgetown. I used JavaScript, JSON and
+                Bootstrap to display the data.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://firecareers.georgetown.org/benefits/">#link</a>
   <div class="container-fluid">
     <div class="row align-items-center justify-content-center mb-5">
       <div class="col">
@@ -136,6 +295,41 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
+  <div class="row align-items-center justify-content-center mb-5">
+    <div class="col">
+      <h2 class="h2 text-center mt-lg-4">SKILLS</h2>
+      <hr class="mb-lg-5" />
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="row justify-content-evenly mb-3">
+                <div class="col-lg-3">
+                  <img
+                    src="/imgs/js.png"
+                    alt=""
+                    class="img-fluid"
+                    style="border-radius: 45px"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img src="/imgs/mongodb.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-lg-3 text-center">
+                  <img src="/imgs/nodejs.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="row justify-content-evenly mt-3">
+                <div class="col-lg-3">
+                  <img src="/imgs/Photoshop.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-lg-3 my-lg-0 my-2">
+                  <img src="/imgs/php.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-lg-3">
+                  <img src="/imgs/wordpress.png" alt="" class="img-fluid" />
   <div class="container-fluid">
     <div class="row align-items-center justify-content-center mb-5">
       <div class="col">
@@ -174,6 +368,51 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
+  <div class="row align-items-center justify-content-center mb-5">
+    <div class="col-12">
+      <h2 class="h2 text-center mt-lg-5" id="about">ABOUT ME</h2>
+      <hr class="mb-lg-5" />
+    </div>
+    <div class="col-12">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12">
+          <div class="card shadow">
+            <div class="card-body p-lg-5">
+              <p class="fs-5">
+                Hello everyone! Thank you for viewing my Portfolio. The layout
+                of the website was created using Bootstrap 5 and some custom
+                CSS. I have been practicing web development for more than a year
+                now and landed my first job in development in January of 2023. I
+                used a range of tools such as Udemy, CodeWars, the Odin Project,
+                CodeCademy, freeCodeCamp and on the job experience.
+              </p>
+              <p class="fs-5">
+                I started my career working in Information Technology, moving
+                from a Helpdesk role, then to a Systems Administrator, and
+                finally an IT Consultant. I accumulated over 7 years of IT
+                Support skills creating/deploying servers and network
+                architecture all while supporting my clients.
+              </p>
+              <p class="fs-5">
+                Unfortunately, IT Support was not fulfilling me creatively, so I
+                wanted to transition into something with a more creative outlet.
+                I had a strong aspiration to pursue computer coding, yet I held
+                the misconception that one needed exceptional intelligence to
+                grasp the breadth of knowledge required to master the art of
+                coding. I was deterred from pursuing this early on in my life
+                because of the requirements I had built up in my own head. Then,
+                I started talking to my neighbor about it, and they believed I
+                was well-equipped to learn how to code. They told me, "Anyone
+                can do it!" And now, here I am—a full-fledged web developer! I
+                may be a junior, but I am a web developer nonetheless!
+              </p>
+              <p class="fs-5 mb-0">
+                Thank you for visiting my site. If you would like to inquire
+                about me developing your site, please feel free to reach out to
+                me any time!
+              </p>
   <div class="container-fluid">
     <div class="row align-items-center justify-content-center mb-5">
       <div class="col-12">
