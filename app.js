@@ -25,6 +25,10 @@ app.get('/services', (req, res) => {
   res.render('services');
 });
 
+app.get('/thank-you', (req, res) => {
+  res.render('thankYou');
+});
+
 // app.use((err, req, res, next) => {
 //   const { status, message = 'Something Went Wrong' } = err;
 //   res.status(status).send(message);

@@ -25,9 +25,84 @@
       })(window, document, 'script', 'dataLayer', 'GTM-MMMT5GJ');
     </script>
     <!-- End Google Tag Manager -->
-    <title>CMathis - Portfolio</title>
+    <title>CMathis - Dev Portfolio</title>
   </head>
   <body class="d-flex flex-column vh-100">
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Me</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form
+            action="https://formsubmit.co/collin.mathis94@gmail.com"
+            method="POST"
+          >
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="jdoe@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="name"
+                  name="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Jamie Doe"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div>
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://collinmathis.com/thank-you"
+                />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -69,5 +144,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/JS/typing.js"></script>
+    <script src="/JS/modal.js"></script>
   </body>
 </html>
